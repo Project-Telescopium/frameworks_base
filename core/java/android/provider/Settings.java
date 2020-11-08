@@ -6059,6 +6059,22 @@ public final class Settings {
         public static final String SHOW_APP_VOLUME = "show_app_volume";
 
         /**
+         * Whether to show ambient instead of lockscreen during dt2w
+         *
+         * @hide
+         */
+        @Readable
+        public static final String DOUBLE_TAP_AMBIENT_WAKE_GESTURES = "double_tap_ambient_wake_gestures";
+
+        /**
+         * Whether to show ambient instead of lockscreen during pickup
+         *
+         * @hide
+         */
+        @Readable
+        public static final String PICKUP_AMBIENT_WAKE_GESTURES = "pickup_ambient_wake_gestures";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
@@ -6239,6 +6255,8 @@ public final class Settings {
             PRIVATE_SETTINGS.add(SWIPE_TO_SCREENSHOT);
             PRIVATE_SETTINGS.add(ADAPTIVE_PLAYBACK_ENABLED);
             PRIVATE_SETTINGS.add(ADAPTIVE_PLAYBACK_TIMEOUT);
+            PRIVATE_SETTINGS.add(DOUBLE_TAP_AMBIENT_WAKE_GESTURES);
+            PRIVATE_SETTINGS.add(PICKUP_AMBIENT_WAKE_GESTURES);
         }
         /**
          * These entries are considered common between the personal and the managed profile,

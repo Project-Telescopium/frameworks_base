@@ -6095,12 +6095,22 @@ public final class Settings {
         public static final String LOCK_GESTURE_STATUS = "lock_gesture_status";
 
         /**
-
-        /**
          * Whether to display 4G icon instead LTE
          * @hide
          */
         public static final String SHOW_FOURG_ICON = "show_fourg_icon";
+
+        /**
+         * reTicker Status
+         * @hide
+         */
+        public static final String RETICKER_STATUS = "reticker_status";
+
+        /**
+         * reTicker Colored
+         * @hide
+         */
+        public static final String RETICKER_COLORED = "reticker_colored";
 
         /**
          * Keys we no longer back up under the current schema, but want to continue to
